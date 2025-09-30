@@ -1,0 +1,18 @@
+{
+  "name": "tailwindcss-coffee-style",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --minify",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "pmhieudev",
+  "license": "ISC",
+  "description": "pmhieudev",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.13"
+  }
+}
