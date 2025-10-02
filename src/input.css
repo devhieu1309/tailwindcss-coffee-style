@@ -9,6 +9,7 @@
   --font-karla: "Karla", sans-serif;
   --animate-slideDown: slideDown .5s ease-in-out;
   --animate-fadeIn: fadeIn .5s ease-in-out;
+  --screen-xs: 480px;
 
   @keyframes slideDown {
     0% {
